@@ -1,0 +1,32 @@
+.App {
+  min-height: 100vh;
+  /* background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%); */
+  background-color: #a4133c;
+}
+.search-form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-bar {
+  width: 50%;
+  border: none;
+  background-color: #fff0f3;
+  padding: 10px;
+}
+.search-button {
+  background-color: #2d2d34;
+  border: none;
+  padding: 10px 20px;
+  color: #fff0f3;
+}
+.search-button:hover {
+  cursor: pointer;
+  background-color: #393941;
+}
+.recipies {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
